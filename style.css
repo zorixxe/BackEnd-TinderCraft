@@ -1,0 +1,76 @@
+h1 {
+    margin: 0;
+}
+
+
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+#container {
+    background-color: #43852f;
+    max-width: 800px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+#container h2 {
+    color: #FAF9F6;
+}
+
+
+#delete {
+    padding-top: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+#delete a{
+    text-align: left;
+    color: #ffeeba;
+    font-size: 25px;
+}
+
+#delete a:hover{
+    color:red;
+}
+
+#container p {
+    text-align: left;
+    display: block;
+    position: static;
+}
+
+#delete:hover {
+    color: #FAF9F6;
+}
+
+article {
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.bigred {
+    font-size: 40px;
+    color: red;
+}
+
+#updateprofilepic {
+    display: block;
+    float:right;
+    color: #FAF9F6;
+}
+
+#updateprofilepic #profilePic{
+    position:absolute;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    margin-left: 100px;
+}

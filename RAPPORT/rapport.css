@@ -1,0 +1,53 @@
+body{
+    background-color: #4e4e4e;
+    margin: 0;
+}
+
+
+#container{
+    background-color: #FAF9F6;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    margin:20px;
+}
+
+h1{
+    padding: 20px;
+}
+
+.rapportHeader{
+    color:black;
+    margin: 10px;
+}
+
+.rapportButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rapportButton a {
+    color: white;
+    text-decoration: none;
+}
+
+.rapportButton:hover {
+    background-color: #1abc9c;
+}
+#rapportChoice{
+    padding-left: 35%;
+    padding-top: 40px;
+    align-items: center;
+}
